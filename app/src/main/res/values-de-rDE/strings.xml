@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple To-Do List</string>
+    <string name="add_edit_text">Name der Aufgabe</string>
+    <string name="menu_delete_all">Alle abgeschlossenen löschen</string>
+    <string name="menu_sort_date">Nach Erstellungsdatum sortieren</string>
+    <string name="menu_sort_name">Nach Namen sortieren</string>
+    <string name="menu_sort">Sortieren</string>
+    <string name="menu_search">Suchen</string>
+    <string name="date">Erstellt:</string>
+    <string name="confirm_yes">Ja</string>
+    <string name="confirm_cancel">Abbrechen</string>
+    <string name="confirm_msg">Möchten Sie wirklich alle abgeschlossenen Aufgaben löschen?</string>
+    <string name="confirm">Confrim-Löschung</string>
+    <string name="task_undo">Abbrechen</string>
+    <string name="task_delete">Aufgabe gelöscht</string>
+    <string name="reminder">Erinnerung</string>
+    <string name="reminder_btn_error">Bitte geben Sie den Aufgabennamen ein</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="cancel_success">Die Mahnung wurde abgebrochen</string>
+    <string name="created">Erstellt:</string>
+    <string name="on_txt_change_empty">Bitte geben Sie den Aufgabennamen ein</string>
+    <string name="reminder_for">"Erinnerung für: "</string>
+    <string name="task_list_title">Aufgaben</string>
+    <string name="task_edit_title">Aufgabe bearbeiten</string>
+    <string name="task_new_title">Neue Aufgabe</string>
+    <string name="invalid_time">Ungültige Zeit!</string>
+    <string name="disabled_btn_warning">Erinnerung kann nicht für abgeschlossene Aufgaben erstellt werden</string>
+    <string name="timePicker_text">Stellen Sie die Uhrzeit ein:</string>
+</resources>

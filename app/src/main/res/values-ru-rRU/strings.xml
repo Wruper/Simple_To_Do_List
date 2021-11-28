@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple To-Do List</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_sort">Сортировать</string>
+    <string name="menu_sort_name">Сортировать по названию</string>
+    <string name="menu_sort_date">Сортировать по дате создания</string>
+    <string name="menu_delete_all">Удалить все завершенные</string>
+    <string name="add_edit_text">Название задачи</string>
+    <string name="date">Cоздан:</string>
+    <string name="confirm">Подтверждение удаления</string>
+    <string name="confirm_msg">Вы действительно хотите удалить все завершенные задачи?</string>
+    <string name="confirm_yes">Да</string>
+    <string name="confirm_cancel">"Отменить "</string>
+    <string name="task_undo">Отменить</string>
+    <string name="task_delete">Задача удалена</string>
+    <string name="reminder">Напоминание</string>
+    <string name="reminder_btn_error">Пожалуйста, введите название задач</string>
+    <string name="cancel">Отменить</string>
+    <string name="cancel_success">Напоминание отменено</string>
+    <string name="created">Cоздан:</string>
+    <string name="on_txt_change_empty">Пожалуйста, введите название задач</string>
+    <string name="reminder_for">Напоминание для:</string>
+    <string name="task_list_title">Задачи</string>
+    <string name="task_edit_title">Изменить задачу</string>
+    <string name="task_new_title">Новая задача</string>
+    <string name="invalid_time">Неверное время!</string>
+    <string name="disabled_btn_warning">Не удается создать напоминание для выполненных задач</string>
+    <string name="timePicker_text">Установите время:</string>
+</resources>

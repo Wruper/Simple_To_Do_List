@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple To-Do List</string>
+    <string name="menu_search">Meklēšana</string>
+    <string name="menu_sort">Sortēšana</string>
+    <string name="menu_sort_name">Sortēt pēc nosaukuma</string>
+    <string name="menu_sort_date">Sortēt pēc datuma</string>
+    <string name="menu_delete_all">Izdzēst izpildītos</string>
+    <string name="add_edit_text">Uzdevuma nosaukums</string>
+    <string name="date">Izveidots:</string>
+    <string name="confirm">Apstiprināt dzēšanu</string>
+    <string name="confirm_msg">Vai Jūs patiešām vēlaties izdzēst visus izpildītos uzdevumus?</string>
+    <string name="confirm_cancel">Atcelt</string>
+    <string name="confirm_yes">Jā</string>
+    <string name="task_delete">Uzdevums izdzēsts</string>
+    <string name="task_undo">Atgriest</string>
+    <string name="reminder">Atgādinājums</string>
+    <string name="reminder_btn_error">Lūdzu aizpildiet uzdevuma nosaukumu</string>
+    <string name="cancel">Atcelt</string>
+    <string name="cancel_success">Atgādinājums ir atcelts</string>
+    <string name="created">Izveidots:</string>
+    <string name="on_txt_change_empty">Lūdzu aizpildiet uzdevuma nosaukumu</string>
+    <string name="reminder_for">"Atgādinājums priekš: "</string>
+    <string name="task_list_title">Uzdevumi</string>
+    <string name="task_edit_title">Rediģēt uzdevumu</string>
+    <string name="task_new_title">Jauns uzdevums</string>
+    <string name="invalid_time">Nederīgs laiks!</string>
+    <string name="disabled_btn_warning">Nav iespējams izveidot atgādni izpildītiem uzdevumiem</string>
+    <string name="timePicker_text">Uzstādiet laiku:</string>
+</resources>
