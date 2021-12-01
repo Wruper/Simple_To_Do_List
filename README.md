@@ -17,7 +17,7 @@ that will alarm the user about an upcoming task.
 For the creation of the app every imaginable resource was used: Stackoverflow, Youtube tutorials and other coding websites
 
 ## Google Play Store listing
-The app is currently in review -> Will edit when will be approved
+The app can be found here: https://play.google.com/store/apps/details?id=com.wruper.simple_to_do_list
 
 ## License
 Copyright 2021, Wruper (Richard Everts)
