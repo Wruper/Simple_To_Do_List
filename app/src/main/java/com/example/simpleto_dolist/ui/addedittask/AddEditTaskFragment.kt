@@ -234,12 +234,17 @@ class AddEditTaskFragment : Fragment(R.layout.fragment_add_edit_task) {
             })
 
             fabSaveTask.setOnClickListener {
-                if(System.currentTimeMillis() > viewModel.taskReminderTime){
+                if(System.currentTimeMillis() > viewModel.taskReminderTime
+                    && viewModel.taskReminder){
                     Toast.makeText(
                         context,
                         resources.getString(R.string.invalid_time),
                         Toast.LENGTH_LONG
                     ).show()
+                }
+                else if( viewModel.taskReminderTime == 0.toLong() &&
+                        !viewModel.taskReminder){
+                    viewModel.onSaveClick()
                 }
                 else {
                     val alarmMgr = context?.getSystemService(Context.ALARM_SERVICE) as AlarmManager
@@ -269,8 +274,8 @@ class AddEditTaskFragment : Fragment(R.layout.fragment_add_edit_task) {
                         ),
                         alarmIntent
                     )
-
                     viewModel.onSaveClick()
+
                 }
             }
         }
